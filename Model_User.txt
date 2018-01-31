@@ -1,0 +1,5 @@
+Update Configuration_UserWise SET ConfigurationValue = Convert(Varbinary,'1') Where ConfigurationID = 371
+Go
+Update Configuration Set ConfigurationValue = '1' where configurationid = 371
+
+
